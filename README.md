@@ -1,2 +1,4 @@
 # Computer_Vision
 Various applications for modifying/editing videos and photos.
+
+https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2RnbjIyZmF3OXN1ZXpmOHE1emwyaXQ0cXZiYjJoNHY2dHUyeGlxYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Gvm8o9CRjPhwlfchui/giphy.gif
