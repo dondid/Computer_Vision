@@ -1,0 +1,148 @@
+xml version=1.0 encoding=UTF-8
+ui version=4.0
+ classMainWindowclass
+ widget class=QMainWindow name=MainWindow
+  property name=geometry
+   rect
+    x0x
+    y0y
+    width800width
+    height600height
+   rect
+  property
+  property name=windowTitle
+   stringComputer Vision 2024-2025 © Dodoc Ionuț-Danielstring
+  property
+  widget class=QWidget name=centralwidget
+   layout class=QVBoxLayout name=verticalLayout
+    item
+     widget class=QPushButton name=pushButton_importImage
+      property name=text
+       stringÎncarcă imagineastring
+      property
+     widget
+    item
+    item
+     widget class=QGraphicsView name=graphicsView
+    item
+    item
+     widget class=QLineEdit name=lineEdit_textInput
+      property name=placeholderText
+       stringIntrodu textstring
+      property
+     widget
+    item
+    item
+     widget class=QPushButton name=pushButton_addText
+      property name=text
+       stringAdaugă textulstring
+      property
+     widget
+    item
+    item
+     widget class=QPushButton name=pushButton_deleteSelected
+      property name=text
+       stringȘtergestring
+      property
+     widget
+    item
+    item
+     layout class=QHBoxLayout name=hBoxLayout_fontWeight
+      item
+       widget class=QLabel name=label_fontWeight
+        property name=text
+         stringGrosimea textuluistring
+        property
+       widget
+      item
+      item
+       widget class=QSlider name=slider_fontWeight
+        property name=orientation
+         enumQtHorizontalenum
+        property
+        property name=minimum
+         number0number
+        property
+        property name=maximum
+         number100number
+        property
+        property name=value
+         number50number
+        property
+       widget
+      item
+     layout
+    item
+    item
+     layout class=QHBoxLayout name=hBoxLayout_fontSize
+      item
+       widget class=QLabel name=label_fontSize
+        property name=text
+         stringDimensiunea textuluistring
+        property
+       widget
+      item
+      item
+       widget class=QSlider name=slider_fontSize
+        property name=orientation
+         enumQtHorizontalenum
+        property
+        property name=minimum
+         number5number
+        property
+        property name=maximum
+         number100number
+        property
+        property name=value
+         number20number
+        property
+       widget
+      item
+     layout
+    item
+    item
+     layout class=QHBoxLayout name=hBoxLayout_colorSelection
+      item
+       widget class=QLabel name=label_color
+        property name=text
+         stringCuloarestring
+        property
+       widget
+      item
+      item
+       widget class=QPushButton name=pushButton_selectColor
+        property name=text
+         stringSelectează culoareastring
+        property
+       widget
+      item
+      item
+       widget class=QLabel name=label_colorDisplay
+        property name=fixedSize
+         size
+          width50width
+          height20height
+         size
+        property
+        property name=styleSheet
+         stringbackground-color black;string
+        property
+       widget
+      item
+     layout
+    item
+    item
+     widget class=QPushButton name=pushButton_saveImage
+      property name=text
+       stringSalveazăstring
+      property
+     widget
+    item
+   layout
+  widget
+  widget class=QMenuBar name=menubar
+  widget class=QStatusBar name=statusbar
+ widget
+ resources
+ connections
+ui
